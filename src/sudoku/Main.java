@@ -19,9 +19,10 @@ public class Main {
         };
 
 
-        SudokuTable sudokuTable = new SudokuTable(data);
+        SudokuTable sudokuTable = new SudokuTable();
         sudokuTable.generate();
 
+        System.out.println("==========");
         System.out.println(sudokuTable);
 
     }

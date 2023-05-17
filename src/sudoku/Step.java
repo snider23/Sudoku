@@ -8,10 +8,14 @@ import java.util.Set;
 public class Step {
     private Step previous;
 
+    private int row, column;
+
     private List<Integer> possibleValues;
 
-    public Step(Step previous, Set<Integer> possibleValues) {
+    public Step(Step previous,int row,int column, Set<Integer> possibleValues) {
         this.previous = previous;
+        this.row=row;
+        this.column=column;
         this.possibleValues = new ArrayList<>(possibleValues);
         Collections.shuffle(this.possibleValues);
     }
@@ -22,5 +26,13 @@ public class Step {
 
     public List<Integer> getPossibleValues() {
         return possibleValues;
+    }
+
+    public int getRow() {
+        return row;
+    }
+
+    public int getColumn() {
+        return column;
     }
 }
