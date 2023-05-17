@@ -20,8 +20,9 @@ public class Main {
 
 
         SudokuTable sudokuTable = new SudokuTable(data);
+        sudokuTable.generate();
 
-        System.out.println(sudokuTable.getPossibleValues(7 , 7));
+        System.out.println(sudokuTable);
 
     }
 }

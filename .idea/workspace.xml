@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fe99060-4640-42c6-b9e1-3e0145d86677" name="Changes" comment="getPossibleValues">
-      <change afterPath="$PROJECT_DIR$/src/sudoku/Main.java" afterDir="false" />
+    <list default="true" id="6fe99060-4640-42c6-b9e1-3e0145d86677" name="Changes" comment="testing in Main">
+      <change afterPath="$PROJECT_DIR$/src/sudoku/Step.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sudoku/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sudoku/SudokuTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/SudokuTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684339083379</updated>
-      <workItem from="1684339084527" duration="2330000" />
+      <workItem from="1684339084527" duration="4931000" />
     </task>
     <task id="LOCAL-00001" summary="Sudoku start">
       <created>1684339240499</created>
@@ -99,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684340733886</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="testing in Main">
+      <created>1684341626895</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684341626895</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +128,7 @@
     <MESSAGE value="Sudoku start" />
     <MESSAGE value="possible Values" />
     <MESSAGE value="getPossibleValues" />
-    <option name="LAST_COMMIT_MESSAGE" value="getPossibleValues" />
+    <MESSAGE value="testing in Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing in Main" />
   </component>
 </project>
