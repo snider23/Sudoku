@@ -10,12 +10,21 @@ public class SudokuTable {
 
 
 
-    private int[][] data = new int[SUDOKU_SIZE][SUDOKU_SIZE];
+    private int[][] data;
+
+    public SudokuTable(){
+        this(new int[SUDOKU_SIZE][SUDOKU_SIZE]);
+    }
+
+    public SudokuTable(int[][] data){
+        validateInputData(data);
+        this.data=data;
+    }
 
     public Set<Integer> getPossibleValues(int row,int column){
        Set<Integer> possibleValues= getPossibleInRow(row);
        possibleValues.retainAll(getPossibleValuesInColumn(column));
-        possibleValues.retainAll(getPossibleValuesInZone());
+        possibleValues.retainAll(getPossibleValuesInZone(convertRowAndColumnToZone(row,column)));
        return possibleValues;
     }
 
@@ -32,8 +41,8 @@ public class SudokuTable {
         for (int i = 0; i < SUDOKU_SIZE; i++) {
             result.remove(data[i][column]);
         }
-        
-        
+
+
         return result;
     }
 
@@ -55,6 +64,17 @@ public class SudokuTable {
     }
 
     private int convertRowAndColumnToZone(int row,int column){
-    
+    return (row/3)* 3 +(column/3);
+    }
+
+    private static void validateInputData(int[][] data) {
+        if (data.length!=SUDOKU_SIZE){
+            throw new IllegalArgumentException("Sudoku size must be 9x9");
+        }
+        for (int i = 0; i < data.length; i++) {
+            if (data[i].length != SUDOKU_SIZE) {
+                throw new IllegalArgumentException("Sudoku size must be 9x9");
+            }
+        }
     }
 }
