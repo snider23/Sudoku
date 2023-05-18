@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fe99060-4640-42c6-b9e1-3e0145d86677" name="Changes" comment="Step class implementing">
+    <list default="true" id="6fe99060-4640-42c6-b9e1-3e0145d86677" name="Changes" comment="debugging">
+      <change afterPath="$PROJECT_DIR$/src/sudoku/Position.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sudoku/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sudoku/Step.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/Step.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sudoku.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Sudoku.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sudoku/SudokuTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/SudokuTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +46,9 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -77,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684339083379</updated>
-      <workItem from="1684339084527" duration="9235000" />
+      <workItem from="1684339084527" duration="12158000" />
     </task>
     <task id="LOCAL-00001" summary="Sudoku start">
       <created>1684339240499</created>
@@ -114,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684344104599</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="debugging">
+      <created>1684348661256</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684348661256</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +147,7 @@
     <MESSAGE value="getPossibleValues" />
     <MESSAGE value="testing in Main" />
     <MESSAGE value="Step class implementing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Step class implementing" />
+    <MESSAGE value="debugging" />
+    <option name="LAST_COMMIT_MESSAGE" value="debugging" />
   </component>
 </project>
